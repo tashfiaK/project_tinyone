@@ -13,10 +13,10 @@
         }
         /* banner start */
         .b_content{
-            padding-top: 45px;
+            padding-top: 20px;
         }
         .cmn_h2{
-            font-size: 28px;
+            font-size: 27px;
         }
         .cmn_p1{
             margin: 30px 0 0;
@@ -31,17 +31,14 @@
         .b_icons ul li a i {
             font-size: 30px;
         }
-        .b_img {
-            margin: 35px auto 0;
-        }
-        .b_img img{
-            width: 80%;
-        }
         /* feature start */
         .f_top {
             padding: 0 20px;
         }
         /* footer start */
+        footer {
+            padding: 60px 0;
+        }
         .f_contacts p {
             padding: 0;
         }
@@ -74,6 +71,9 @@
         .f_listing {
             text-align: center;
         }
+        .f_1 address {
+            text-align: center;
+        }
  }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -91,13 +91,13 @@
         }
         /* banner start */
         .b_content{
-            padding-top: 45px;
+            padding-top: 20px;
         }
         .cmn_h2{
-            font-size: 28px;
+            font-size: 27px;
         }
         .cmn_p1{
-            margin: 30px 0 0;
+            margin: 18px 0 0;
             font-size: 16px;
         }
         .b_icons ul {
@@ -109,13 +109,10 @@
         .b_icons ul li a i {
             font-size: 30px;
         }
-        .b_img {
-            margin: 35px auto 0;
-        }
-        .b_img img{
-            width: 80%;
-        }
         /* footer start */
+        footer {
+            padding: 60px 0;
+        }
         .f_contacts p {
             padding: 0;
         }
@@ -128,11 +125,18 @@
         .f_listing {
             text-align: center;
         }
+        .f_1 address {
+            text-align: center;
+        }
 
  }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
+    /* banner */
+    .b_img {
+        margin: 25px auto 0;
+    }
     /* footer start */
     .f_contacts p {
         padding: 0;
@@ -142,6 +146,9 @@
     }
     .f_1{
         padding: 0 0 50px 0;
+    }
+    .f_1 address {
+        text-align: center;
     }
  }
 

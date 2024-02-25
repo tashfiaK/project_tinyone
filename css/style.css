@@ -206,4 +206,8 @@ footer {
     color: #898989;
     font-weight: 400;
     text-decoration: none;
+    transition: .33s;
+}
+.f_listing ul li a:hover {
+    color: #ffffff;
 }
